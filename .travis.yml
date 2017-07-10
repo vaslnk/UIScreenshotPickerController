@@ -1,3 +1,6 @@
-language: swift
+language: objective-c
 xcode_project: ScreenshotPicker.xcodeproj # path to your xcodeproj folder
 xcode_scheme:  ScreenshotPickerUITests
+osx_image: xcode9
+script:
+    - xcodebuild clean test -project ScreenshotPicker.xcodeproj -scheme ScreenshotPicker -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
