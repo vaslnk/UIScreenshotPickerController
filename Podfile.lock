@@ -1,0 +1,14 @@
+PODS:
+  - JPSimulatorHacks (1.4.1):
+    - JPSimulatorHacks/standard (= 1.4.1)
+  - JPSimulatorHacks/standard (1.4.1)
+
+DEPENDENCIES:
+  - JPSimulatorHacks
+
+SPEC CHECKSUMS:
+  JPSimulatorHacks: bfabfea9965dbf5929bc575874d634fa7a9b097c
+
+PODFILE CHECKSUM: 92cdb67144de440bcc9c14a495f294f58e9e5a81
+
+COCOAPODS: 1.2.1

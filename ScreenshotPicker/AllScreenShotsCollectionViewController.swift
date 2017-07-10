@@ -31,7 +31,7 @@ class AllScreenShotsCollectionViewController: UICollectionViewController, UIColl
         let scale = UIScreen.main.scale
         
         thumbnailSize = CGSize(width: itemSize.width * scale, height: itemSize.height * scale)
-    
+        
         self.collectionView!.register(ThumbnailCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         self.collectionView!.backgroundColor = UIColor.white
         
@@ -77,6 +77,7 @@ class AllScreenShotsCollectionViewController: UICollectionViewController, UIColl
         fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
         if Platform.isSimulator {
             fetchResult = PHAsset.fetchAssets(with: fetchOptions) as? PHFetchResult<AnyObject>
+            self.collectionView?.reloadData()
         } else {
             let collections = PHAssetCollection.fetchAssetCollections(with: .smartAlbum, subtype: .smartAlbumScreenshots, options: nil)
             let screenshots = collections.lastObject
@@ -98,6 +99,7 @@ class AllScreenShotsCollectionViewController: UICollectionViewController, UIColl
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ThumbnailCell
+        
         imgManager.requestImage(for: fetchResult?.object(at: indexPath.row) as! PHAsset,
                                             targetSize: thumbnailSize!,
                                             contentMode: PHImageContentMode.aspectFill,

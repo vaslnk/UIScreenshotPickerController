@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0944353D12668704C475A7D3A582CD05 /* JPSimulatorHacks.h in Headers */ = {isa = PBXBuildFile; fileRef = EC306D6FD8FA14B13665673A64D58446 /* JPSimulatorHacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D51873A35278BF75253B3F1B330B42 /* Pods-ScreenshotPickerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A74CACB9A38DAA7A444713D8693022 /* Pods-ScreenshotPickerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181CC07555D8227C18797E28652263B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		222333FC356A59F77FFA5D8662CB2424 /* Pods-ScreenshotPickerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEE1C3926E7DFC855E944836D03EBC /* Pods-ScreenshotPickerTests-dummy.m */; };
+		3AC007A783ED9B1E07B93D8CE56DB8CE /* Pods-ScreenshotPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DD9FD53AD55C2E44FF91E97EB2B3A9 /* Pods-ScreenshotPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460D80EF694C26F57D2790FD93603BD3 /* Pods-ScreenshotPickerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B013557D0E39D9A72C768A9B873783B2 /* Pods-ScreenshotPickerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486E35D3A2949F552D0DC9B6766FBFC5 /* JPSimulatorHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 35083893112E200193E29948CE2344C5 /* JPSimulatorHacks.m */; };
+		6A543FDCB8F113420B1EDD9BE391F1C3 /* JPSimulatorHacks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12BA6CD8612164997E898756E79E4B /* JPSimulatorHacks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A946337C9B00CC079F5C46F19824B29 /* Pods-ScreenshotPickerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AA790D109B395F1C5781E57ED0EC2F /* Pods-ScreenshotPickerUITests-dummy.m */; };
+		9A04BFCE8D2A9283C4BABC9C7E8CE728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE62EDAD47992DC441B20BD2C8A2F23E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C8C0EDBCDB20863284FF6AB329AA1BB4 /* JPSimulatorHacksDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB1FB4CF8606AC3BDD29D66D7685FB /* JPSimulatorHacksDB.m */; };
+		EB008366ECD383C503E73867432856E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB9FF6F1FB233B19BD8927272DFBA657 /* JPSimulatorHacks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FECE112E000FD6BF974A8F4EEBC0E /* JPSimulatorHacks-dummy.m */; };
+		F53DC3A8FF529711D82BA865655BB3BA /* JPSimulatorHacksDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 060E76F1C1004CC59CD2AF037309E125 /* JPSimulatorHacksDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B06F219927A7A44B89A7ED88404E79 /* Pods-ScreenshotPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B21EDE74CBDAB019E6A5E689DAB41EE /* Pods-ScreenshotPicker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E53622B1AA8825F6E6A003F8B331897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A173DF8741DFE4A49163C4E2C6E64E7B;
+			remoteInfo = JPSimulatorHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060E76F1C1004CC59CD2AF037309E125 /* JPSimulatorHacksDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSimulatorHacksDB.h; path = JPSimulatorHacks/JPSimulatorHacksDB.h; sourceTree = "<group>"; };
+		083727C3BE7A00D27BFF2E4892C04DFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AA790D109B395F1C5781E57ED0EC2F /* Pods-ScreenshotPickerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenshotPickerUITests-dummy.m"; sourceTree = "<group>"; };
+		193FAFE131B1A42C61D3F4124E9F4F64 /* Pods-ScreenshotPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPicker-resources.sh"; sourceTree = "<group>"; };
+		1A17CE334DB47B421DF4EAED640287E4 /* Pods_ScreenshotPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenshotPickerTests.framework; path = "Pods-ScreenshotPickerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3B45E436BA4A3743627AB545DD4DD4 /* Pods-ScreenshotPickerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPickerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1E12BA6CD8612164997E898756E79E4B /* JPSimulatorHacks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSimulatorHacks-umbrella.h"; sourceTree = "<group>"; };
+		1ECAB029B5020A77E3FB3E9C81FF08B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB96F1BF4F69597A034BAF3E1EB3766 /* Pods-ScreenshotPickerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPickerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E907B03403270D3786E8E136124C244 /* Pods-ScreenshotPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		32DFF2C8634104FF155A6A66B1F465FF /* Pods-ScreenshotPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35083893112E200193E29948CE2344C5 /* JPSimulatorHacks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSimulatorHacks.m; path = JPSimulatorHacks/JPSimulatorHacks.m; sourceTree = "<group>"; };
+		3E90695723F92ACE3ED92DA84CB0BD77 /* Pods-ScreenshotPickerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScreenshotPickerTests.modulemap"; sourceTree = "<group>"; };
+		48C7DB784AA31E9295926D9BEF7A7FEA /* Pods-ScreenshotPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenshotPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48FF9031C7B6E3D2C7D03EDFB745033F /* Pods-ScreenshotPickerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPickerTests-resources.sh"; sourceTree = "<group>"; };
+		4A54435F9456E3BEDDBD14CD0E47ED2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6F450E63830EEF8F611C5C2036BFCF /* JPSimulatorHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JPSimulatorHacks.framework; path = JPSimulatorHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		529C624503ABFD2819D320FCDBD5EC8D /* Pods-ScreenshotPickerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenshotPickerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55A74CACB9A38DAA7A444713D8693022 /* Pods-ScreenshotPickerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenshotPickerTests-umbrella.h"; sourceTree = "<group>"; };
+		5B21EDE74CBDAB019E6A5E689DAB41EE /* Pods-ScreenshotPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenshotPicker-dummy.m"; sourceTree = "<group>"; };
+		5D928E76269108B21953D3FE04D05B1D /* Pods-ScreenshotPickerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScreenshotPickerUITests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71DEE1C3926E7DFC855E944836D03EBC /* Pods-ScreenshotPickerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenshotPickerTests-dummy.m"; sourceTree = "<group>"; };
+		79BB3FDDEFDA85640B85586523846EEC /* Pods-ScreenshotPickerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPickerUITests-resources.sh"; sourceTree = "<group>"; };
+		8252AF67AB1B84C605A18ABB521A63C2 /* Pods-ScreenshotPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPicker-frameworks.sh"; sourceTree = "<group>"; };
+		84922D8675FA291224BB9436190158C3 /* JPSimulatorHacks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JPSimulatorHacks.modulemap; sourceTree = "<group>"; };
+		853384077985A7A793F9A7B25BC1EC76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86634DED68B70119EAC8E493CF44CAE9 /* JPSimulatorHacks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSimulatorHacks-prefix.pch"; sourceTree = "<group>"; };
+		898A37189C1538AC8FFAA52D329221AC /* Pods-ScreenshotPickerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPickerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A4374E56891F5DA6A2494CAD0150367 /* Pods-ScreenshotPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ScreenshotPicker.modulemap"; sourceTree = "<group>"; };
+		8DBB1FB4CF8606AC3BDD29D66D7685FB /* JPSimulatorHacksDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSimulatorHacksDB.m; path = JPSimulatorHacks/JPSimulatorHacksDB.m; sourceTree = "<group>"; };
+		8E93A8C0FA6FF99320988B0E0AB25B1F /* Pods-ScreenshotPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		936212DDDC89CAC3C66D79F8A33F9C64 /* Pods_ScreenshotPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenshotPicker.framework; path = "Pods-ScreenshotPicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A8FECE112E000FD6BF974A8F4EEBC0E /* JPSimulatorHacks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSimulatorHacks-dummy.m"; sourceTree = "<group>"; };
+		9E24A4926FB936A0917E23E7E8AEB94C /* JPSimulatorHacks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSimulatorHacks.xcconfig; sourceTree = "<group>"; };
+		A3F7E6516A5CC5DD8C5948049403FA2D /* Pods_ScreenshotPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenshotPickerUITests.framework; path = "Pods-ScreenshotPickerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DD9FD53AD55C2E44FF91E97EB2B3A9 /* Pods-ScreenshotPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenshotPicker-umbrella.h"; sourceTree = "<group>"; };
+		B013557D0E39D9A72C768A9B873783B2 /* Pods-ScreenshotPickerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenshotPickerUITests-umbrella.h"; sourceTree = "<group>"; };
+		B8B29B0AF3C24F8A2CCEB94E979270DA /* Pods-ScreenshotPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenshotPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1DD2FACA1699F7EC0EF79A099131ABD /* Pods-ScreenshotPickerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenshotPickerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC306D6FD8FA14B13665673A64D58446 /* JPSimulatorHacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSimulatorHacks.h; path = JPSimulatorHacks/JPSimulatorHacks.h; sourceTree = "<group>"; };
+		F66D11A550AFF8E4C43B42664622A58F /* Pods-ScreenshotPickerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenshotPickerTests-frameworks.sh"; sourceTree = "<group>"; };
+		F7ACC1C65B10135676B9624FF19DC769 /* Pods-ScreenshotPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPicker.release.xcconfig"; sourceTree = "<group>"; };
+		FEE6F5B1A67AB09ADD4193574446E9B5 /* Pods-ScreenshotPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFC6F77A225A1082C905A78C2F5F8BB /* Pods-ScreenshotPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenshotPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6360ECD65C925EC5397A7354433E7B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB008366ECD383C503E73867432856E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D11F458966E392587B2149A2C14CAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A04BFCE8D2A9283C4BABC9C7E8CE728 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976C72E3FF0819A8721EC8CE46546640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE62EDAD47992DC441B20BD2C8A2F23E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD27F4E3E4D2497D397D08E5BFF70B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181CC07555D8227C18797E28652263B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251DF5CF7D4DE1C99E8EBECDD010556B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E6F450E63830EEF8F611C5C2036BFCF /* JPSimulatorHacks.framework */,
+				936212DDDC89CAC3C66D79F8A33F9C64 /* Pods_ScreenshotPicker.framework */,
+				1A17CE334DB47B421DF4EAED640287E4 /* Pods_ScreenshotPickerTests.framework */,
+				A3F7E6516A5CC5DD8C5948049403FA2D /* Pods_ScreenshotPickerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D32943E9389E5B5B736562063711787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A9EAAF412B0180203B055F40F9D0 /* JPSimulatorHacks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		349B3F3FA44A68834C9B2628831CC710 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				EC306D6FD8FA14B13665673A64D58446 /* JPSimulatorHacks.h */,
+				35083893112E200193E29948CE2344C5 /* JPSimulatorHacks.m */,
+				060E76F1C1004CC59CD2AF037309E125 /* JPSimulatorHacksDB.h */,
+				8DBB1FB4CF8606AC3BDD29D66D7685FB /* JPSimulatorHacksDB.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		506F389D79676ECCE3D87EDF3257C508 /* Pods-ScreenshotPicker */ = {
+			isa = PBXGroup;
+			children = (
+				083727C3BE7A00D27BFF2E4892C04DFB /* Info.plist */,
+				8A4374E56891F5DA6A2494CAD0150367 /* Pods-ScreenshotPicker.modulemap */,
+				48C7DB784AA31E9295926D9BEF7A7FEA /* Pods-ScreenshotPicker-acknowledgements.markdown */,
+				B8B29B0AF3C24F8A2CCEB94E979270DA /* Pods-ScreenshotPicker-acknowledgements.plist */,
+				5B21EDE74CBDAB019E6A5E689DAB41EE /* Pods-ScreenshotPicker-dummy.m */,
+				8252AF67AB1B84C605A18ABB521A63C2 /* Pods-ScreenshotPicker-frameworks.sh */,
+				193FAFE131B1A42C61D3F4124E9F4F64 /* Pods-ScreenshotPicker-resources.sh */,
+				A4DD9FD53AD55C2E44FF91E97EB2B3A9 /* Pods-ScreenshotPicker-umbrella.h */,
+				FEE6F5B1A67AB09ADD4193574446E9B5 /* Pods-ScreenshotPicker.debug.xcconfig */,
+				F7ACC1C65B10135676B9624FF19DC769 /* Pods-ScreenshotPicker.release.xcconfig */,
+			);
+			name = "Pods-ScreenshotPicker";
+			path = "Target Support Files/Pods-ScreenshotPicker";
+			sourceTree = "<group>";
+		};
+		63C5A9EAAF412B0180203B055F40F9D0 /* JPSimulatorHacks */ = {
+			isa = PBXGroup;
+			children = (
+				349B3F3FA44A68834C9B2628831CC710 /* standard */,
+				ED4DBFC5A6D44280BCD14C1F81237E9D /* Support Files */,
+			);
+			name = JPSimulatorHacks;
+			path = JPSimulatorHacks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2D32943E9389E5B5B736562063711787 /* Pods */,
+				251DF5CF7D4DE1C99E8EBECDD010556B /* Products */,
+				C611463F1AEF524F2238215AE0974AAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E15966879C49A445456C2D43058D705 /* Pods-ScreenshotPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				853384077985A7A793F9A7B25BC1EC76 /* Info.plist */,
+				3E90695723F92ACE3ED92DA84CB0BD77 /* Pods-ScreenshotPickerTests.modulemap */,
+				C1DD2FACA1699F7EC0EF79A099131ABD /* Pods-ScreenshotPickerTests-acknowledgements.markdown */,
+				898A37189C1538AC8FFAA52D329221AC /* Pods-ScreenshotPickerTests-acknowledgements.plist */,
+				71DEE1C3926E7DFC855E944836D03EBC /* Pods-ScreenshotPickerTests-dummy.m */,
+				F66D11A550AFF8E4C43B42664622A58F /* Pods-ScreenshotPickerTests-frameworks.sh */,
+				48FF9031C7B6E3D2C7D03EDFB745033F /* Pods-ScreenshotPickerTests-resources.sh */,
+				55A74CACB9A38DAA7A444713D8693022 /* Pods-ScreenshotPickerTests-umbrella.h */,
+				32DFF2C8634104FF155A6A66B1F465FF /* Pods-ScreenshotPickerTests.debug.xcconfig */,
+				2E907B03403270D3786E8E136124C244 /* Pods-ScreenshotPickerTests.release.xcconfig */,
+			);
+			name = "Pods-ScreenshotPickerTests";
+			path = "Target Support Files/Pods-ScreenshotPickerTests";
+			sourceTree = "<group>";
+		};
+		988F8DCC2E742EE81A0E477DDB497853 /* Pods-ScreenshotPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ECAB029B5020A77E3FB3E9C81FF08B8 /* Info.plist */,
+				5D928E76269108B21953D3FE04D05B1D /* Pods-ScreenshotPickerUITests.modulemap */,
+				529C624503ABFD2819D320FCDBD5EC8D /* Pods-ScreenshotPickerUITests-acknowledgements.markdown */,
+				2CB96F1BF4F69597A034BAF3E1EB3766 /* Pods-ScreenshotPickerUITests-acknowledgements.plist */,
+				16AA790D109B395F1C5781E57ED0EC2F /* Pods-ScreenshotPickerUITests-dummy.m */,
+				1D3B45E436BA4A3743627AB545DD4DD4 /* Pods-ScreenshotPickerUITests-frameworks.sh */,
+				79BB3FDDEFDA85640B85586523846EEC /* Pods-ScreenshotPickerUITests-resources.sh */,
+				B013557D0E39D9A72C768A9B873783B2 /* Pods-ScreenshotPickerUITests-umbrella.h */,
+				FFFC6F77A225A1082C905A78C2F5F8BB /* Pods-ScreenshotPickerUITests.debug.xcconfig */,
+				8E93A8C0FA6FF99320988B0E0AB25B1F /* Pods-ScreenshotPickerUITests.release.xcconfig */,
+			);
+			name = "Pods-ScreenshotPickerUITests";
+			path = "Target Support Files/Pods-ScreenshotPickerUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C611463F1AEF524F2238215AE0974AAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				506F389D79676ECCE3D87EDF3257C508 /* Pods-ScreenshotPicker */,
+				8E15966879C49A445456C2D43058D705 /* Pods-ScreenshotPickerTests */,
+				988F8DCC2E742EE81A0E477DDB497853 /* Pods-ScreenshotPickerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED4DBFC5A6D44280BCD14C1F81237E9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A54435F9456E3BEDDBD14CD0E47ED2B /* Info.plist */,
+				84922D8675FA291224BB9436190158C3 /* JPSimulatorHacks.modulemap */,
+				9E24A4926FB936A0917E23E7E8AEB94C /* JPSimulatorHacks.xcconfig */,
+				9A8FECE112E000FD6BF974A8F4EEBC0E /* JPSimulatorHacks-dummy.m */,
+				86634DED68B70119EAC8E493CF44CAE9 /* JPSimulatorHacks-prefix.pch */,
+				1E12BA6CD8612164997E898756E79E4B /* JPSimulatorHacks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPSimulatorHacks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		982AC6ACDB379BDEDFA739FE398A79DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC007A783ED9B1E07B93D8CE56DB8CE /* Pods-ScreenshotPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF96B9A3C64C66D2509412520848190D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A543FDCB8F113420B1EDD9BE391F1C3 /* JPSimulatorHacks-umbrella.h in Headers */,
+				0944353D12668704C475A7D3A582CD05 /* JPSimulatorHacks.h in Headers */,
+				F53DC3A8FF529711D82BA865655BB3BA /* JPSimulatorHacksDB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0112674D4D6476781DC40261DE4A3FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D51873A35278BF75253B3F1B330B42 /* Pods-ScreenshotPickerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C5D4418E7DD541F7E54EF697F1F58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460D80EF694C26F57D2790FD93603BD3 /* Pods-ScreenshotPickerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2909AADBF7E1A4D5822D709AC764820C /* Pods-ScreenshotPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A4BB0AE257CC13E6F9E3B37290FBF1 /* Build configuration list for PBXNativeTarget "Pods-ScreenshotPicker" */;
+			buildPhases = (
+				86251F1B42428597ED9C535D8A01211B /* Sources */,
+				976C72E3FF0819A8721EC8CE46546640 /* Frameworks */,
+				982AC6ACDB379BDEDFA739FE398A79DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScreenshotPicker";
+			productName = "Pods-ScreenshotPicker";
+			productReference = 936212DDDC89CAC3C66D79F8A33F9C64 /* Pods_ScreenshotPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5538BF0A6854BCD8808A48C38AF7C736 /* Pods-ScreenshotPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB9917BAE29DF156B619590C204B775 /* Build configuration list for PBXNativeTarget "Pods-ScreenshotPickerUITests" */;
+			buildPhases = (
+				C2A7ECAD3B7B25EE801EDE2338780444 /* Sources */,
+				6D11F458966E392587B2149A2C14CAAC /* Frameworks */,
+				EA3C5D4418E7DD541F7E54EF697F1F58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1D0D553D309F2C56AA86AAB96CA4D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenshotPickerUITests";
+			productName = "Pods-ScreenshotPickerUITests";
+			productReference = A3F7E6516A5CC5DD8C5948049403FA2D /* Pods_ScreenshotPickerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A173DF8741DFE4A49163C4E2C6E64E7B /* JPSimulatorHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D71F076FCFF4F2AD5D5CEB815FBF278 /* Build configuration list for PBXNativeTarget "JPSimulatorHacks" */;
+			buildPhases = (
+				1F1FBEDA68BE27D98E4610CB1A20DC6F /* Sources */,
+				DAD27F4E3E4D2497D397D08E5BFF70B4 /* Frameworks */,
+				DF96B9A3C64C66D2509412520848190D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSimulatorHacks;
+			productName = JPSimulatorHacks;
+			productReference = 4E6F450E63830EEF8F611C5C2036BFCF /* JPSimulatorHacks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBAB5AB1AEA8C79A2A010315591B2536 /* Pods-ScreenshotPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0451AC708885F96D6F08F5A1C42F8B9 /* Build configuration list for PBXNativeTarget "Pods-ScreenshotPickerTests" */;
+			buildPhases = (
+				D26D15575A459C0C03C657A0AA25BD91 /* Sources */,
+				6360ECD65C925EC5397A7354433E7B2D /* Frameworks */,
+				E0112674D4D6476781DC40261DE4A3FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScreenshotPickerTests";
+			productName = "Pods-ScreenshotPickerTests";
+			productReference = 1A17CE334DB47B421DF4EAED640287E4 /* Pods_ScreenshotPickerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 251DF5CF7D4DE1C99E8EBECDD010556B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A173DF8741DFE4A49163C4E2C6E64E7B /* JPSimulatorHacks */,
+				2909AADBF7E1A4D5822D709AC764820C /* Pods-ScreenshotPicker */,
+				EBAB5AB1AEA8C79A2A010315591B2536 /* Pods-ScreenshotPickerTests */,
+				5538BF0A6854BCD8808A48C38AF7C736 /* Pods-ScreenshotPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1FBEDA68BE27D98E4610CB1A20DC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9FF6F1FB233B19BD8927272DFBA657 /* JPSimulatorHacks-dummy.m in Sources */,
+				486E35D3A2949F552D0DC9B6766FBFC5 /* JPSimulatorHacks.m in Sources */,
+				C8C0EDBCDB20863284FF6AB329AA1BB4 /* JPSimulatorHacksDB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86251F1B42428597ED9C535D8A01211B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B06F219927A7A44B89A7ED88404E79 /* Pods-ScreenshotPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7ECAD3B7B25EE801EDE2338780444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A946337C9B00CC079F5C46F19824B29 /* Pods-ScreenshotPickerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26D15575A459C0C03C657A0AA25BD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222333FC356A59F77FFA5D8662CB2424 /* Pods-ScreenshotPickerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB1D0D553D309F2C56AA86AAB96CA4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPSimulatorHacks;
+			target = A173DF8741DFE4A49163C4E2C6E64E7B /* JPSimulatorHacks */;
+			targetProxy = 1E53622B1AA8825F6E6A003F8B331897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12BBEC35975109BE4E114423B427D3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE6F5B1A67AB09ADD4193574446E9B5 /* Pods-ScreenshotPicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenshotPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenshotPicker/Pods-ScreenshotPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScreenshotPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A565A43755B11EFF0F1961498A87C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DFF2C8634104FF155A6A66B1F465FF /* Pods-ScreenshotPickerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenshotPickerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenshotPickerTests/Pods-ScreenshotPickerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScreenshotPickerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E8E81173B24FC209D46DC186C63EC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E24A4926FB936A0917E23E7E8AEB94C /* JPSimulatorHacks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPSimulatorHacks/JPSimulatorHacks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSimulatorHacks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPSimulatorHacks/JPSimulatorHacks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JPSimulatorHacks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60C1DDDF99DF5C099A9E7F54281E0BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E24A4926FB936A0917E23E7E8AEB94C /* JPSimulatorHacks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPSimulatorHacks/JPSimulatorHacks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSimulatorHacks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPSimulatorHacks/JPSimulatorHacks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JPSimulatorHacks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7438436C281A05E9EE85EDA10699242F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7ACC1C65B10135676B9624FF19DC769 /* Pods-ScreenshotPicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenshotPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenshotPicker/Pods-ScreenshotPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScreenshotPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77CA55A3B103AEC81C012432260578A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFC6F77A225A1082C905A78C2F5F8BB /* Pods-ScreenshotPickerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenshotPickerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenshotPickerUITests/Pods-ScreenshotPickerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScreenshotPickerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB86222ADB83F80834843E96F6DFA9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E907B03403270D3786E8E136124C244 /* Pods-ScreenshotPickerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenshotPickerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenshotPickerTests/Pods-ScreenshotPickerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScreenshotPickerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED2463237EA10852CEE1CF844098965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E93A8C0FA6FF99320988B0E0AB25B1F /* Pods-ScreenshotPickerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenshotPickerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenshotPickerUITests/Pods-ScreenshotPickerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScreenshotPickerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB9917BAE29DF156B619590C204B775 /* Build configuration list for PBXNativeTarget "Pods-ScreenshotPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CA55A3B103AEC81C012432260578A7 /* Debug */,
+				ED2463237EA10852CEE1CF844098965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D71F076FCFF4F2AD5D5CEB815FBF278 /* Build configuration list for PBXNativeTarget "JPSimulatorHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C1DDDF99DF5C099A9E7F54281E0BB8 /* Debug */,
+				3E8E81173B24FC209D46DC186C63EC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A4BB0AE257CC13E6F9E3B37290FBF1 /* Build configuration list for PBXNativeTarget "Pods-ScreenshotPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BBEC35975109BE4E114423B427D3AA /* Debug */,
+				7438436C281A05E9EE85EDA10699242F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0451AC708885F96D6F08F5A1C42F8B9 /* Build configuration list for PBXNativeTarget "Pods-ScreenshotPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A565A43755B11EFF0F1961498A87C1A /* Debug */,
+				EB86222ADB83F80834843E96F6DFA9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
