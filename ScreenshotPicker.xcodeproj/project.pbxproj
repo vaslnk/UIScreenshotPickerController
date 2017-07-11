@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4AC183CA28DB71A99784E7C3 /* Pods_ScreenshotPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D892D2CDDBF2B12B3BDD09DA /* Pods_ScreenshotPickerUITests.framework */; };
 		BA5556AD58B3D034A0AAF547 /* Pods_ScreenshotPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D33BBFA71BEE6A399576C8 /* Pods_ScreenshotPicker.framework */; };
-		DE55F12DD9CBE70E7547347F /* Pods_ScreenshotPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EF3C3B74944CCD2914935E /* Pods_ScreenshotPickerTests.framework */; };
 		F4285F971F0D20A40007422F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F961F0D20A40007422F /* AppDelegate.swift */; };
 		F4285F991F0D20A40007422F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F981F0D20A40007422F /* ViewController.swift */; };
 		F4285F9C1F0D20A40007422F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4285F9A1F0D20A40007422F /* Main.storyboard */; };
@@ -49,7 +48,6 @@
 		8F65006C17CDA7D761FC7A19 /* Pods-ScreenshotPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenshotPickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenshotPickerUITests/Pods-ScreenshotPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92D33BBFA71BEE6A399576C8 /* Pods_ScreenshotPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenshotPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		996884E754893756DD43D015 /* Pods-ScreenshotPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenshotPickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenshotPickerUITests/Pods-ScreenshotPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1EF3C3B74944CCD2914935E /* Pods_ScreenshotPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenshotPickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D892D2CDDBF2B12B3BDD09DA /* Pods_ScreenshotPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenshotPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4285F931F0D20A40007422F /* ScreenshotPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenshotPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4285F961F0D20A40007422F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE55F12DD9CBE70E7547347F /* Pods_ScreenshotPickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				92D33BBFA71BEE6A399576C8 /* Pods_ScreenshotPicker.framework */,
-				D1EF3C3B74944CCD2914935E /* Pods_ScreenshotPickerTests.framework */,
 				D892D2CDDBF2B12B3BDD09DA /* Pods_ScreenshotPickerUITests.framework */,
 			);
 			name = Frameworks;
