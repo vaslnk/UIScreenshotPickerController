@@ -1,5 +1,5 @@
 //
-//  UIScreenShotPickerController.swift
+//  UIScreenShotPicker.swift
 //  ScreenshotPicker
 //
 //  Created by Yevgeniy Vasylenko on 7/6/17.
@@ -7,29 +7,24 @@
 //
 
 import UIKit
+import Photos
 
-class UIScreenShotPickerController: UIImagePickerController {
+protocol UIScreenShotPickerControllerDelegate {
+    func screenShotPickerController(_ picker: UIScreenShotPickerController, didFinishPickingImage info: UIImage)
+    func screenShotPickerControllerDidCancel(_ picker: UIScreenShotPickerController)
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+class UIScreenShotPickerController: UINavigationController {
+    
+    var myDelegate: UIScreenShotPickerControllerDelegate?
+    override var delegate: UINavigationControllerDelegate? {
+        didSet { myDelegate = delegate as? UIScreenShotPickerControllerDelegate }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let allScreenShotsVC = AllScreenShotsCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        self.pushViewController(allScreenShotsVC, animated: false)
     }
-    */
-
+    
 }

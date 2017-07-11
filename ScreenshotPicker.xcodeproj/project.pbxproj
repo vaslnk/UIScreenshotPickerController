@@ -10,13 +10,13 @@
 		4AC183CA28DB71A99784E7C3 /* Pods_ScreenshotPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D892D2CDDBF2B12B3BDD09DA /* Pods_ScreenshotPickerUITests.framework */; };
 		BA5556AD58B3D034A0AAF547 /* Pods_ScreenshotPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D33BBFA71BEE6A399576C8 /* Pods_ScreenshotPicker.framework */; };
 		F4285F971F0D20A40007422F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F961F0D20A40007422F /* AppDelegate.swift */; };
-		F4285F991F0D20A40007422F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F981F0D20A40007422F /* ViewController.swift */; };
+		F4285F991F0D20A40007422F /* ExampleOfUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F981F0D20A40007422F /* ExampleOfUse.swift */; };
 		F4285F9C1F0D20A40007422F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4285F9A1F0D20A40007422F /* Main.storyboard */; };
 		F4285F9E1F0D20A40007422F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4285F9D1F0D20A40007422F /* Assets.xcassets */; };
 		F4285FA11F0D20A40007422F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4285F9F1F0D20A40007422F /* LaunchScreen.storyboard */; };
 		F4285FAC1F0D20A40007422F /* ScreenshotPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FAB1F0D20A40007422F /* ScreenshotPickerTests.swift */; };
 		F4285FB71F0D20A40007422F /* ScreenshotPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FB61F0D20A40007422F /* ScreenshotPickerUITests.swift */; };
-		F4285FD31F0E91150007422F /* UIScreenShotPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FD21F0E91150007422F /* UIScreenShotPicker.swift */; };
+		F4285FD31F0E91150007422F /* UIScreenShotPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FD21F0E91150007422F /* UIScreenShotPickerController.swift */; };
 		F4285FD51F0E92A50007422F /* AllScreenShotsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FD41F0E92A50007422F /* AllScreenShotsCollectionViewController.swift */; };
 		F4285FD71F0F84820007422F /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FD61F0F84820007422F /* FullImageViewController.swift */; };
 		F4285FD91F0FE53F0007422F /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285FD81F0FE53F0007422F /* Platform.swift */; };
@@ -51,7 +51,7 @@
 		D892D2CDDBF2B12B3BDD09DA /* Pods_ScreenshotPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenshotPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4285F931F0D20A40007422F /* ScreenshotPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenshotPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4285F961F0D20A40007422F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4285F981F0D20A40007422F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4285F981F0D20A40007422F /* ExampleOfUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOfUse.swift; sourceTree = "<group>"; };
 		F4285F9B1F0D20A40007422F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4285F9D1F0D20A40007422F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4285FA01F0D20A40007422F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		F4285FB21F0D20A40007422F /* ScreenshotPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenshotPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4285FB61F0D20A40007422F /* ScreenshotPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotPickerUITests.swift; sourceTree = "<group>"; };
 		F4285FB81F0D20A40007422F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4285FD21F0E91150007422F /* UIScreenShotPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenShotPicker.swift; sourceTree = "<group>"; };
+		F4285FD21F0E91150007422F /* UIScreenShotPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenShotPickerController.swift; sourceTree = "<group>"; };
 		F4285FD41F0E92A50007422F /* AllScreenShotsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllScreenShotsCollectionViewController.swift; sourceTree = "<group>"; };
 		F4285FD61F0F84820007422F /* FullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
 		F4285FD81F0FE53F0007422F /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				F4285F961F0D20A40007422F /* AppDelegate.swift */,
-				F4285F981F0D20A40007422F /* ViewController.swift */,
-				F4285FD21F0E91150007422F /* UIScreenShotPicker.swift */,
+				F4285F981F0D20A40007422F /* ExampleOfUse.swift */,
+				F4285FD21F0E91150007422F /* UIScreenShotPickerController.swift */,
 				F4285FD41F0E92A50007422F /* AllScreenShotsCollectionViewController.swift */,
 				F4285FDA1F0FED830007422F /* ThumbnailCell.swift */,
 				F4285FD61F0F84820007422F /* FullImageViewController.swift */,
@@ -464,12 +464,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4285FD51F0E92A50007422F /* AllScreenShotsCollectionViewController.swift in Sources */,
-				F4285F991F0D20A40007422F /* ViewController.swift in Sources */,
+				F4285F991F0D20A40007422F /* ExampleOfUse.swift in Sources */,
 				F4285FDB1F0FED830007422F /* ThumbnailCell.swift in Sources */,
 				F4285F971F0D20A40007422F /* AppDelegate.swift in Sources */,
 				F4285FD71F0F84820007422F /* FullImageViewController.swift in Sources */,
 				F4285FD91F0FE53F0007422F /* Platform.swift in Sources */,
-				F4285FD31F0E91150007422F /* UIScreenShotPicker.swift in Sources */,
+				F4285FD31F0E91150007422F /* UIScreenShotPickerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
