@@ -7,8 +7,7 @@ ViewController file demonstrates how you can implement UIScreenshotPickerControl
 [![Build Status](https://travis-ci.org/vaslnk/UIScreenshotPickerController.svg?branch=master)](https://travis-ci.org/vaslnk/UIScreenshotPickerController) 
  
 
-<img src="http://i.imgur.com/zYUJhFW.png" width="9" height="16">
-<img src="http://i.imgur.com/2mJcIGG.jpg" width="9" height="16">
-<img src="http://i.imgur.com/mPcxZsg.jpg" width="9" height="16">
-<img src="http://i.imgur.com/mq2RvAB.jpg" width="9" height="16">
-
+<img src="http://i.imgur.com/zYUJhFW.png" width="576" height="1024">
+<img src="http://i.imgur.com/2mJcIGG.jpg" width="576" height="1024">
+<img src="http://i.imgur.com/mPcxZsg.jpg" width="576" height="1024">
+<img src="http://i.imgur.com/mq2RvAB.jpg" width="576" height="1024">
