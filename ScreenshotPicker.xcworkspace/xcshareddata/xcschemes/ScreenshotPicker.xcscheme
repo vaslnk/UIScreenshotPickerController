@@ -21,7 +21,7 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -31,20 +31,6 @@
                BlueprintIdentifier = "F4285F921F0D20A40007422F"
                BuildableName = "ScreenshotPicker.app"
                BlueprintName = "ScreenshotPicker"
-               ReferencedContainer = "container:ScreenshotPicker.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4285FB11F0D20A40007422F"
-               BuildableName = "ScreenshotPickerUITests.xctest"
-               BlueprintName = "ScreenshotPickerUITests"
                ReferencedContainer = "container:ScreenshotPicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

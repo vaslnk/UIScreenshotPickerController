@@ -9,14 +9,14 @@
 import UIKit
 import Photos
 
-protocol UIScreenShotPickerControllerDelegate {
+protocol UIScreenShotPickerControllerDelegate: NSObjectProtocol {
     func screenShotPickerController(_ picker: UIScreenShotPickerController, didFinishPickingImage info: UIImage)
     func screenShotPickerControllerDidCancel(_ picker: UIScreenShotPickerController)
 }
 
 class UIScreenShotPickerController: UINavigationController {
     
-    var myDelegate: UIScreenShotPickerControllerDelegate?
+    weak var myDelegate: UIScreenShotPickerControllerDelegate?
     override var delegate: UINavigationControllerDelegate? {
         didSet { myDelegate = delegate as? UIScreenShotPickerControllerDelegate }
     }
