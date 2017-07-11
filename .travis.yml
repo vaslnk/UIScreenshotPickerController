@@ -3,4 +3,4 @@ xcode_project: ScreenshotPicker.xcodeproj # path to your xcodeproj folder
 xcode_scheme:  ScreenshotPickerUITests
 osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.3
-script: xcodebuild clean && xcodebuild build -sdk iphonesimulator10.3 -project ScreenshotPicker.xcodeproj -scheme ScreenshotPickerUITests CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean && xcodebuild build -sdk iphonesimulator10.3 -project ScreenshotPicker.xcodeproj -scheme ScreenshotPicker CODE_SIGNING_REQUIRED=NO
