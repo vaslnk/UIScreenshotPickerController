@@ -6,4 +6,4 @@ ExampleOfUse.swift file demonstrates how you can implement UIScreenshotPickerCon
 
 [![Build Status](https://travis-ci.org/vaslnk/UIScreenshotPickerController.svg?branch=master)](https://travis-ci.org/vaslnk/UIScreenshotPickerController) 
  
-[Imgur](http://i.imgur.com/Ae7quY0.jpg)
+![Imgur](http://i.imgur.com/Ae7quY0.jpg)
